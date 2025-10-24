@@ -12,10 +12,8 @@ $recettes = getRecettes();
 <head>
 <meta charset="UTF-8">
 <title>Recettes LF 2025</title>
-    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap-icons.css" />
-   <link rel="stylesheet" href="../assets/bootstrap/styles/style.css" />
-    <script src="../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+ <link rel="stylesheet" href="../asset/bootstrap5_3/bootstrap/css/bootstrap.min.css" />
+<script src="../asset/bootstrap5_3/bootstrap/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
 <div class="container mt-5">
@@ -36,7 +34,7 @@ $recettes = getRecettes();
             <tr>
                 <td><?= $recette['id'] ?></td>
                     <td>
-                        <a href="recette_detail.php?type=<?= $recette['type_recette_id'] ?>">
+                        <a href="recette_detail.php?type=<?= $recette['type_recette_id'] ?>" class="text-decoration-none">
                             <?= $recette['libelle'] ?>
                         </a>
                     </td>

@@ -28,10 +28,8 @@ switch($type_id) {
 }
 ?>
 
-<link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css" />
-<link rel="stylesheet" href="../assets/bootstrap/css/bootstrap-icons.css" />
-<link rel="stylesheet" href="../assets/bootstrap/styles/style.css" />
-<script src="../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+ <link rel="stylesheet" href="../asset/bootstrap5_3/bootstrap/css/bootstrap.min.css" />
+<script src="../asset/bootstrap5_3/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 <div class="container mt-4">
     <h2><?= $titre ?></h2>
